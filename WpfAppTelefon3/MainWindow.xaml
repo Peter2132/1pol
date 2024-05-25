@@ -12,6 +12,7 @@
             <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
+            <RowDefinition/>
             <RowDefinition Height="0*"/>
 
 
@@ -25,10 +26,10 @@
 
         </Grid.ColumnDefinitions>
 
-
-
-        <Button x:Name="Button" Content="Создать чат"  Grid.Row="1" Click="Button_Click" />
-        <Button x:Name="Button2" Content="Подключится"  Grid.Row="2" Click="Button2_Click" />
+       
+        <Button Style="{DynamicResource NewButtonStyle3}"   x:Name="Button" Content="Создать чат"  Grid.Row="1" Click="Button_Click" />
+        <Button Style="{DynamicResource NewButtonStyle2}" x:Name="Button2" Content="Подключится"  Grid.Row="2" Click="Button2_Click" />
+        <Button Style="{DynamicResource NewButtonStyle2}" x:Name="Button4" Content="Сериализация дессериализация"  Grid.Row="4" Click="Button4_Click"  />
         <TextBox x:Name="TextName" Grid.Row="0" />
         <TextBox x:Name="TextIp" Grid.Row="3" />
 

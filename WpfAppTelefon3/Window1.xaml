@@ -26,9 +26,9 @@
 
         </Grid.ColumnDefinitions>
 
-
-        <Button x:Name="Exit" Content="Выход"  Grid.Column="0" Grid.Row="2" Click="Exit_Click" />
-        <Button x:Name="Button1" Content="Отправить"  Grid.Column="3" Grid.Row="2" Click="Button1_Click_1"  />
+        <Button Style="{DynamicResource ButtonStyle11}" x:Name="Teg" Content="кнопка"  Grid.Column="0" Grid.Row="1" />
+        <Button Style="{DynamicResource NewButtonStyle4}" x:Name="Exit" Content="Выход"  Grid.Column="0" Grid.Row="2" Click="Exit_Click" />
+        <Button Style="{DynamicResource NewButtonStyle5}" x:Name="Button1" Content="Отправить"  Grid.Column="3" Grid.Row="2" Click="Button1_Click_1"  />
         <TextBox x:Name="Text1" Grid.Column="1" Grid.Row="2"/>
 
         <ListBox x:Name="List" Grid.Column="1" />

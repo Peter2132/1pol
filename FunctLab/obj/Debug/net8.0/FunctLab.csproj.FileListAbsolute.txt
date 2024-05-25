@@ -1,0 +1,12 @@
+D:\WpfAppTelefon3\FunctLab\bin\Debug\net8.0\FunctLab.deps.json
+D:\WpfAppTelefon3\FunctLab\bin\Debug\net8.0\FunctLab.dll
+D:\WpfAppTelefon3\FunctLab\bin\Debug\net8.0\FunctLab.pdb
+D:\WpfAppTelefon3\FunctLab\obj\Debug\net8.0\FunctLab.GeneratedMSBuildEditorConfig.editorconfig
+D:\WpfAppTelefon3\FunctLab\obj\Debug\net8.0\FunctLab.AssemblyInfoInputs.cache
+D:\WpfAppTelefon3\FunctLab\obj\Debug\net8.0\FunctLab.AssemblyInfo.cs
+D:\WpfAppTelefon3\FunctLab\obj\Debug\net8.0\FunctLab.csproj.CoreCompileInputs.cache
+D:\WpfAppTelefon3\FunctLab\obj\Debug\net8.0\FunctLab.sourcelink.json
+D:\WpfAppTelefon3\FunctLab\obj\Debug\net8.0\FunctLab.dll
+D:\WpfAppTelefon3\FunctLab\obj\Debug\net8.0\refint\FunctLab.dll
+D:\WpfAppTelefon3\FunctLab\obj\Debug\net8.0\FunctLab.pdb
+D:\WpfAppTelefon3\FunctLab\obj\Debug\net8.0\ref\FunctLab.dll

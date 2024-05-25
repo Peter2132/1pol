@@ -21,24 +21,23 @@ namespace WpfAppTelefon3
     /// </summary>
     public partial class MainWindow : Window
     {
-        
+        private DeserSer deserSer = new DeserSer(); 
+
         public MainWindow()
         {
             InitializeComponent();
-            
-
-           
         }
 
         private void Button2_Click(object sender, RoutedEventArgs e)
         {
-            // Проверяем, что поля TextName и TextIp не пустые
+
             if (!string.IsNullOrWhiteSpace(TextName.Text))
             {
-                // Дополнительная проверка на корректность IP-адреса
+
                 if (IPAddress.TryParse(TextIp.Text, out var address))
                 {
-                    Window1 window1 = new Window1(TextName.Text); // Передаем имя пользователя
+
+                    Window1 window1 = new Window1(TextName.Text);
                     window1.Show();
                     this.Close();
                 }
@@ -61,10 +60,17 @@ namespace WpfAppTelefon3
             }
             else
             {
-                // Если одно из полей пустое, показываем MessageBox с ошибкой
+
                 MessageBox.Show("Пожалуйста, впишите имя.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
             }
-           
+
+        }
+
+        
+
+        private void Button4_Click(object sender, RoutedEventArgs e)
+        {
+            deserSer.DeserSerr();
         }
     }
 }
